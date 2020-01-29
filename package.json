@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config internals/webpack/webpack.prod.babel.js --color -p --progress --hide-modules --display-optimization-bailout",
-    "start": "cross-env NODE_ENV=development node server"
+    "start": "cross-env NODE_ENV=development node server open",
+    "open": "start http://localhost:3000"
   },
   "repository": {
     "type": "git",
@@ -46,6 +47,7 @@
     "jest": "^25.1.0",
     "jest-cli": "^25.1.0",
     "offline-plugin": "^5.0.7",
+    "open-browser-webpack-plugin": "0.0.5",
     "react-app-polyfill": "^1.0.5",
     "rimraf": "^3.0.0",
     "webpack": "^4.41.5",
