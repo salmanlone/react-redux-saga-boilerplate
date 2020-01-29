@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config internals/webpack/webpack.prod.babel.js --color -p --progress --hide-modules --display-optimization-bailout",
-    "start": "cross-env NODE_ENV=development node server open",
-    "open": "start http://localhost:3000"
+    "start": "cross-env NODE_ENV=development node server"
   },
   "repository": {
     "type": "git",
