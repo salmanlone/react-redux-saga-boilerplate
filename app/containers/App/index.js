@@ -9,5 +9,5 @@ import Footer from "components/Footer";
 import GlobalStyle from "../../global-styles";
 
 export default function App() {
-  return <>Test</>;
+  return <>Made with love by salman.</>;
 }
