@@ -52,6 +52,7 @@
     "html-webpack-plugin": "^3.2.0",
     "jest": "^25.1.0",
     "jest-cli": "^25.1.0",
+    "jest-styled-components": "^7.0.0",
     "offline-plugin": "^5.0.7",
     "open-browser-webpack-plugin": "0.0.5",
     "react-app-polyfill": "^1.0.5",
